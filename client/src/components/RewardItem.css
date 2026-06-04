@@ -1,0 +1,70 @@
+.reward-item {
+  transition: background-color 0.2s ease;
+}
+
+.reward-item:hover {
+  background-color: #f9f9f9;
+}
+
+.reward-item .points {
+  font-weight: 600;
+  color: #2196f3;
+}
+
+.reward-item .category-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  background: #e3f2fd;
+  color: #1976d2;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.reward-item .status-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.reward-item .status-active {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.reward-item .status-inactive {
+  background: #fff3e0;
+  color: #f57f17;
+}
+
+.reward-item .actions {
+  display: flex;
+  gap: 8px;
+}
+
+.reward-item .action-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reward-item .action-btn:hover {
+  background: #f0f0f0;
+}
+
+.reward-item .action-btn.delete {
+  color: #d32f2f;
+}
+
+.reward-item .action-btn.delete:hover {
+  background: #ffebee;
+}
